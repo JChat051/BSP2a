@@ -2,7 +2,7 @@
 
 **CLASS-2a Models, Methods and Practice in Computer Science**
 Handcrafted versus learned audio features
-Duration: 3 hours | Python + TouchDesigner | Work in pairs
+Duration: 3 hours | Python + TouchDesigner
 
 ---
 
