@@ -1,11 +1,16 @@
-node_modules
+# uv / Python environment (recreated by `uv sync`)
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Editor and OS files
+.vscode/
+.idea/
 .DS_Store
-dist
-.env
-.vscode
-coverage
-npm-debug.log
-yarn-error.log
-.idea 
+Thumbs.db
+
+# Generated outputs you can recreate
+features.npz
+figs/
 *.log
-*.tsbuildinfo

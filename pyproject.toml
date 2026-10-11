@@ -1,0 +1,17 @@
+[project]
+name = "workshop2-features"
+version = "0.1.0"
+description = "CLASS-2a Workshop 2: handcrafted vs learned audio features"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "numpy",
+    "scipy",
+    "librosa",
+    "matplotlib",
+    "python-osc",
+    "sounddevice",
+]
+
+[project.optional-dependencies]
+# Pre-trained audio classifier (needs a .tflite model file in models/)
+learned = ["mediapipe"]
