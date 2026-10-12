@@ -18,3 +18,5 @@ for a, (name, v) in zip(ax, [("RMS", rms), ("Centroid", centroid),
 ax[-1].set_xlabel("time (s)")
 plt.tight_layout()
 plt.show()
+
+
